@@ -10,9 +10,9 @@ This project use the following packages:
 # Usage
 
 ## CSV Folder
-Inofficial: Source data for the main model
-Official: Raw original data
-Unofficial: Data samples for test
+Inofficial: Source data for the main model <br />
+Official: Raw original data <br />
+Unofficial: Data samples for test <br />
 Noise: Data samples after adding noise for test
 
 
