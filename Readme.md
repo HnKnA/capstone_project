@@ -9,6 +9,12 @@ This project use the following packages:
 
 # Usage
 
+## CSV Folder
+Inofficial: Source data for the main model
+Official: Raw original data
+Unofficial: Data samples for test
+Noise: Data samples after adding noise for test
+
 
 ## CSV Upload Script
 
@@ -20,16 +26,16 @@ Sample command to run the script with COM3, A.csv and official data:
 
 
 ## Main model
-The main model is in `hgr_test.ipynb`
+The main model is in `hgr_test.ipynb`. The currently source data for the model is in csv/inofficial.
 
 
 ## Testing sample
-Run the `lstm.py` script. Configure the directory of the sample (official, unofficial, inofficial, noise)
+Run the `lstm.py` script. Configure the directory of the sample (official, unofficial, inofficial, noise).
 
 
 ## Rename the csv file
 Run the `rename.py` script.
 
 
-## plot one csv file
+## Plot one csv file
 Run the `plot_csv.py` script.
